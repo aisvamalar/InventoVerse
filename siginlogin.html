@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InventoVerse</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="signinlogin.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>Or use your email password</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forget your Password?</a>
+                <button>sign In</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign Up</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>Or use your email for registeration</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Enter Password">
+                <input type="password" placeholder="Confirm Password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Hello, friend!</h1>
+                    <p>Register with your details to get all features</p>
+                    <button class="hidden" id="login">Sign Up</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Welcome back!</h1>
+                    <p>Enter your details to get all features</p>
+                    <button class="hidden" id="register">Sign In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="signinlogin.js"></script>
+    <script src="particles.min.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+
+    <script>
+        ScrollReveal({ 
+            reset: true,
+            distance:'60px',
+            duration: 2000,
+            delay: 400
+         });
+        
+         ScrollReveal().reveal('.container',{delay:400,origin:'top'})
+         ScrollReveal().reveal('button',{delay:500,origin:'bottom'})
+         ScrollReveal().reveal('.social-icons a',{delay:600,origin:'bottom',interval:200})
+
+    </script>
+</body>
+</html>
