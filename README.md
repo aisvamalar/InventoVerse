@@ -1,12 +1,19 @@
+Try it out
+ https://inventoverse.neocities.org/
+
+
 Inspiration 🌟
+
 Ever felt that spark of genius but didn't know where to start? We did too! After seeing countless brilliant minds stuck in the "I wish I could build that" phase, we realized something had to change. Inventoverse was born from a midnight conversation fueled by energy drinks and a shared frustration: why isn't there a cool space where makers, dreamers, and tech enthusiasts can turn their wild ideas into reality? 🚀
 
 What it does ⚡
+
 Inventoverse isn't just another club – it's your launchpad to awesome! Think of it as your innovation playground meets startup bootcamp:
 
 🛠️ Get your hands dirty with cutting-edge prototyping tools 🤝 Join forces with fellow tech wizards and creative geniuses 🎯 Level up through mind-blowing workshops and epic challenges 🌈 Turn "what if" into "wow" with expert mentors 🏆 Compete in hackathons that'll push your limits 🚀 Take your ideas from napkin sketch to next big thing!
 
 How we built it 🔧
+
 No magic wands here – just pure hustle and heart! We:
 
 🤘 Created the coolest inventor hangout spot this side of Silicon Valley 🎓 Recruited tech ninjas and industry veterans as mentors 🔥 Designed workshops that actually teach you useful stuff 🎮 Built a playground of tools that would make Tony Stark jealous 💪 Crafted a zero-to-hero journey for every member
@@ -39,6 +46,4 @@ neocities
 voiceflow
 
 
-Try it out
- GitHub Repo
- inventoverse.neocities.org
+
